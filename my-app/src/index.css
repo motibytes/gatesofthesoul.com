@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Literata&family=Lora:wght@500&family=Playfair+Display:wght@400;500&display=swap');body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+/* Tablets and Desktops */ 
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.App-header {
+  font-family: 'EB Garamond', serif;
+  font-weight: 500;
+  background-color: #852401;
+  /*min-height: 50vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  color: white;
+  padding: 10px;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+#readthescroll {
+  padding: 20px;
+  font-weight:500;
+  font-size: 1.4em;
+  font-family: 'Literata', serif;
+  background-color:blanchedalmond;
+}
+#a_amazon{
+}
+#a_apple{}
+#a_google{}
+#amazon{
+  width: 14vw;
+  padding: 10px;
+  
+}
+#apple{
+  width: 20vw;
+}
+#icons{
+  width: 22vw;
+}
+#about{
+  
+  padding: 20px;
+  font-weight:500;
+  font-size: 1.3em;
+  font-family: 'Literata', serif;
+  background-color:blanchedalmond;    
+}
+/* phones */ 
+@media screen and (max-width: 800px) {
+
+  .App-logo {
+    height: 80vmin;
+    pointer-events: none;
+  }
+  .App-header {
+
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;    background-color: #852401;
+    /*min-height: 50vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    padding: 10px;
+    
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+  /*
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  */
+  #readthescroll { 
+    padding: 20px;
+    font-weight:500;
+    font-size: 1.4em;
+    font-family: 'Literata', serif;
+    background-color:blanchedalmond;
+  }
+  #about{ 
+
+    padding: 20px;
+    font-weight:500;
+    font-size: 1.3em;
+    font-family: 'Literata', serif;
+    background-color:blanchedalmond;    
+  }
+  #a_amazon{
+  }
+  #a_apple{}
+  #a_google{}
+  #amazon{
+    width: 60vw;
+  }
+  #apple{
+    width: 80vw;
+  }
+  #icons{
+    width: 90vw;
+  }
+
+}
