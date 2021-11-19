@@ -1,17 +1,6 @@
 import logo from './logoforicons.jpg';
-import apple from './apple.svg';
 import apple2 from './apple2.svg';
-
-import amazon from './amazonh.png';
-import amazon2 from './amazonh2.png';
-import amazon3 from './amazonh3.png';
-import amazon4 from './amazonh4.png';
 import amazon5 from './amazonh5.png';
-import amazon6 from './amazonh6.png';
-import amazon7 from './amazonh7.png';
-import amazon8 from './amazonh8.png';
-import gates from './gates.jpg';
-
 import './App.css';
 
 import Share from './Share.js';
