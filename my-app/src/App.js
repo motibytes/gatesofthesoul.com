@@ -2,6 +2,7 @@ import logo from './logoforicons.jpg';
 import apple2 from './apple2.svg';
 import amazon5 from './amazonh5.png';
 import './App.css';
+import logomain from './maintitle.jpg';
 
 import Share from './Share.js';
 function App() {
@@ -9,11 +10,17 @@ function App() {
     <div className="App">
 
       <header className="App-header">
-      TheGatesoftheSoulOpen.com
+        <a id="websitelink" href="https://thegatesofthesoulopen.com">TheGatesoftheSoulOpen.com </a> 
+{/*     TheGatesoftheSoulOpen.com
       <img src={logo} className="App-logo" alt="logo" />
 
       Spiritual Warfare: Gates of the Soul
 
+*/}  
+      <a href="#readthescroll">
+      <img src={logomain} className="App-main" alt="logo" />
+      </a>
+      Spiritual Warfare: Gates of the Soul
 
       </header>
       <div id="main">

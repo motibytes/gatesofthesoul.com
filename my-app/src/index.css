@@ -14,7 +14,9 @@ code {
 .App {
   text-align: center;
 }
-
+#websitelink { 
+  color: white;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -81,6 +83,11 @@ code {
   .App-logo {
     height: 80vmin;
     pointer-events: none;
+  }
+  .App-main {
+    width: 95vmin;
+    pointer-events: none;
+
   }
   .App-header {
 
